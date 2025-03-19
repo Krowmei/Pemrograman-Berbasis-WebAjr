@@ -1,0 +1,71 @@
+*{
+    font-family: Poppins, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #cfbcab;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 0px;
+    color: #90645a;
+}
+
+a:hover{
+    color: black;
+}
+
+.Category{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 0px;
+}
+.Header{
+    font-size: 20px;
+    align-items: center;
+    text-align: center  ;
+}
+
+.author{
+    text-align: center;
+}
+
+.list{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.Daftarisi{
+    font-size: 21px;
+}
+
+.Introduction{
+    font-size: 25px;
+}
+
+.Detailedhistory{
+    font-size: 25px;
+}
+
+.Various{
+    font-size: 25px;
+}
+
+b{
+    margin-left: 0px;
+    font-weight: 400;
+}
+
+span{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cite{
+    font-weight: 200;
+    font-size: 14px;
+}

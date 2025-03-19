@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 3</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="Container">
+            <div class="Title">
+                <h1>PENDAFTARAN MAHASISWA BARU</h1>
+            </div>
+
+            <div class="NPM">
+                <label for="NPM">
+                    NPM (Nomor Pokok Mahasiswa)
+                </label>
+                    <div class="inputNPM">
+                        <input type="number" id="NPM" class="IAB">
+                    </div>
+            </div>
+            
+            <div class="Nama">
+                <label for="Nama">
+                    Nama Lengkap
+                </label>
+                <br>
+                    <div class="InputNama">
+                        <input type="text" id="Nama" class="IAB">
+                    </div>
+            </div>
+
+            <div class="Alamat">
+                <label for="Alamat">
+                    Alamat
+                </label>
+                <br>
+                    <div class="InputAlamat">    
+                <textarea name="Alamat" id="Alamat"></textarea>
+                    </div>
+            </div>
+
+            <div class="JenisKelamin">
+                <label for="JenisKelamin">
+                    Jenis kelamin  
+                </label>
+                <br>
+                    <div class="radio">
+                        <input type="radio" name="Gender" value="Laki-Laki">
+                        <label for="Laki-Laki">Laki-Laki</label>
+                        <br>
+                        <input type="radio" name="Gender" value="Perempuan">
+                        <label for="Perempuan">Perempuan</label>
+                    </div>
+                
+            </div>
+
+            <div class="ProgramStudi">
+                <label for="ProgramStudi">Program Studi</label>
+            <br>
+                <div class="InputProgram">
+                    <select id="ProgramStudi" name="ProgramStudi">
+                        <option selected disabled>Pilih Salah Satu!</option>
+                        <option value="Informatika">Informatika</option>
+                        <option value="Sistem Informasi">Sistem Informasi</option>
+                        <option value="Teknik Jaringan Komputer">Teknik Jaringan Komputer</option>
+                        <option value="Sains Data">Sains Data</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="ButtonT">
+                <button>Tambah</button>
+            </div>
+    </div>
+</body>
+</html>
