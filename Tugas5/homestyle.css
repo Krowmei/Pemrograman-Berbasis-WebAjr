@@ -1,0 +1,22 @@
+body {
+    background-color: #F0EEFF; 
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.card {
+    background-color: #ffffff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+    width: 100%;
+}
+
+a:hover {
+    background-color: #F6F6F6;
+}
